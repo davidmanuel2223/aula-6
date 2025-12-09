@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+
+    </form>
+    <table>
+        <tr>
+            <td><label for="i2">Numero</label></td>
+            <td><input type="number" name="num1"value="" size="5"min="5"max="10"
+                required id="i2">
+            </td>
+            </tr>
+            <tr>
+                <td><label for="i3">Email</label></td>
+                <td><input type="email" name="txt2"value="" required id="i3">
+
+                </td>
+                </tr>
+                <tr>
+                    <td><label for="i4">data</label></td>
+                    <td><input type="date" name="txt3"value=""required id="i4" min="2019-02-25">
+                    </td>
+                    </tr>
+                    <tr>
+                        <td><label for="i5">intervalo</label></td>
+                        <td><input type="range"name="rng" value="19" min="5" max="20" step="1" required id="i5">
+                        </td>
+                        </tr>
+                        <tr>
+                            <td><label for="i6">Cor</label></td>
+                            <td><input list="idLista" name="cor" value=""required id="i6">
+                                <datalist id="idLista">
+                                    <option>Amarelo</option>
+                                    <option >Azul</option>
+                                    <option value>Vermelho</option>
+                                </datalist>
+                            </td>
+        </tr>
+    </table>
+</body>
+</html>
